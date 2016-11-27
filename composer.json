@@ -1,0 +1,33 @@
+{
+    "name": "nits/laravel-datatables-nitesh",
+    "description": "jQuery DataTables API for Laravel 4|5",
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "~5.0",
+        "illuminate/database": "~5.0",
+        "illuminate/view": "~5.0",
+        "illuminate/http": "~5.0",
+        "illuminate/filesystem": "~5.0",
+        "league/fractal": "~0.12",
+        "laravelcollective/html": "~5.0",
+        "maatwebsite/excel": "^2.0",
+        "dompdf/dompdf": "^0.6.1"
+    },
+    "require-dev": {
+        "mockery/mockery": "~0.9",
+        "phpunit/phpunit": "~4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nitesh",
+            "email": "nits.max88@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "nits\\Datatables\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
