@@ -1,5 +1,5 @@
 {
-    "name": "nits/laravel-datatables-nitesh",
+    "name": "nitsmax/laravel-datatables-nitesh",
     "description": "jQuery DataTables API for Laravel 4|5",
     "require": {
         "php": ">=5.5.9",
