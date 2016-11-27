@@ -1,13 +1,13 @@
 <?php
 
-namespace Yajra\Datatables\Html;
+namespace Nitsmax\Datatables\Html;
 
 use Illuminate\Support\Fluent;
 
 /**
  * Class Parameters.
  *
- * @package Yajra\Datatables\Html
+ * @package Nitsmax\Datatables\Html
  * @see     https://datatables.net/reference/option/ for possible columns option
  * @author  Arjay Angeles <aqangeles@gmail.com>
  */

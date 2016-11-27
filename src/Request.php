@@ -1,6 +1,6 @@
 <?php
 
-namespace Yajra\Datatables;
+namespace Nitsmax\Datatables;
 
 use Exception;
 use Illuminate\Http\Request as IlluminateRequest;
@@ -9,7 +9,7 @@ use Illuminate\Http\Request as IlluminateRequest;
  * Class Request.
  *
  * @property array columns
- * @package Yajra\Datatables
+ * @package Nitsmax\Datatables
  * @author  Arjay Angeles <aqangeles@gmail.com>
  */
 class Request extends IlluminateRequest

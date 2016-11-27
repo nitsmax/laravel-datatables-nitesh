@@ -1,11 +1,11 @@
 <?php
 
-namespace Yajra\Datatables\Contracts;
+namespace Nitsmax\Datatables\Contracts;
 
 /**
  * Interface DataTableContract
  *
- * @package Yajra\Datatables\Contracts
+ * @package Nitsmax\Datatables\Contracts
  * @author  Arjay Angeles <aqangeles@gmail.com>
  */
 interface DataTableContract
@@ -26,17 +26,17 @@ interface DataTableContract
     public function ajax();
 
     /**
-     * @return \Yajra\Datatables\Html\Builder
+     * @return \Nitsmax\Datatables\Html\Builder
      */
     public function html();
 
     /**
-     * @return \Yajra\Datatables\Html\Builder
+     * @return \Nitsmax\Datatables\Html\Builder
      */
     public function builder();
 
     /**
-     * @return \Yajra\Datatables\Request
+     * @return \Nitsmax\Datatables\Request
      */
     public function request();
 

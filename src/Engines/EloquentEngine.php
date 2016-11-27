@@ -1,21 +1,21 @@
 <?php
 
-namespace Yajra\Datatables\Engines;
+namespace Nitsmax\Datatables\Engines;
 
 use Illuminate\Database\Eloquent\Builder;
-use Yajra\Datatables\Request;
+use Nitsmax\Datatables\Request;
 
 /**
  * Class EloquentEngine.
  *
- * @package Yajra\Datatables\Engines
+ * @package Nitsmax\Datatables\Engines
  * @author  Arjay Angeles <aqangeles@gmail.com>
  */
 class EloquentEngine extends QueryBuilderEngine
 {
     /**
      * @param mixed $model
-     * @param \Yajra\Datatables\Request $request
+     * @param \Nitsmax\Datatables\Request $request
      */
     public function __construct($model, Request $request)
     {

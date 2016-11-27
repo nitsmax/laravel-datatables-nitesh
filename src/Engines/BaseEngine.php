@@ -1,6 +1,6 @@
 <?php
 
-namespace Yajra\Datatables\Engines;
+namespace Nitsmax\Datatables\Engines;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Facades\Config;
@@ -8,14 +8,14 @@ use Illuminate\Support\Str;
 use League\Fractal\Manager;
 use League\Fractal\Resource\Collection;
 use League\Fractal\Serializer\DataArraySerializer;
-use Yajra\Datatables\Contracts\DataTableEngineContract;
-use Yajra\Datatables\Helper;
-use Yajra\Datatables\Processors\DataProcessor;
+use Nitsmax\Datatables\Contracts\DataTableEngineContract;
+use Nitsmax\Datatables\Helper;
+use Nitsmax\Datatables\Processors\DataProcessor;
 
 /**
  * Class BaseEngine.
  *
- * @package Yajra\Datatables\Engines
+ * @package Nitsmax\Datatables\Engines
  * @author  Arjay Angeles <aqangeles@gmail.com>
  */
 abstract class BaseEngine implements DataTableEngineContract
@@ -23,7 +23,7 @@ abstract class BaseEngine implements DataTableEngineContract
     /**
      * Datatables Request object.
      *
-     * @var \Yajra\Datatables\Request
+     * @var \Nitsmax\Datatables\Request
      */
     public $request;
 

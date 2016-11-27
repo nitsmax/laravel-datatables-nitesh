@@ -1,13 +1,13 @@
 <?php
 
-namespace Yajra\Datatables\Transformers;
+namespace Nitsmax\Datatables\Transformers;
 
 use Illuminate\Support\Collection;
 
 /**
  * Class DataTransformer.
  *
- * @package Yajra\Datatables\Transformers
+ * @package Nitsmax\Datatables\Transformers
  * @author  Arjay Angeles <aqangeles@gmail.com>
  */
 class DataTransformer

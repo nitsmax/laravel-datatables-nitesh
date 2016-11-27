@@ -1,13 +1,13 @@
 <?php
 
-namespace Yajra\Datatables\Facades;
+namespace Nitsmax\Datatables\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
  * Class Datatables.
  *
- * @package Yajra\Datatables\Facades
+ * @package Nitsmax\Datatables\Facades
  * @author  Arjay Angeles <aqangeles@gmail.com>
  */
 class Datatables extends Facade

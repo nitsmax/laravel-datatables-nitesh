@@ -1,17 +1,17 @@
 <?php
 
-namespace Yajra\Datatables;
+namespace Nitsmax\Datatables;
 
 use Collective\Html\HtmlServiceProvider;
 use Illuminate\Support\ServiceProvider;
 use Maatwebsite\Excel\ExcelServiceProvider;
-use Yajra\Datatables\Generators\DataTablesMakeCommand;
-use Yajra\Datatables\Generators\DataTablesScopeCommand;
+use Nitsmax\Datatables\Generators\DataTablesMakeCommand;
+use Nitsmax\Datatables\Generators\DataTablesScopeCommand;
 
 /**
  * Class DatatablesServiceProvider.
  *
- * @package Yajra\Datatables
+ * @package Nitsmax\Datatables
  * @author  Arjay Angeles <aqangeles@gmail.com>
  */
 class DatatablesServiceProvider extends ServiceProvider
@@ -110,7 +110,7 @@ class DatatablesServiceProvider extends ServiceProvider
     {
         if (class_exists('Illuminate\Foundation\AliasLoader')) {
             $loader = \Illuminate\Foundation\AliasLoader::getInstance();
-            $loader->alias('Datatables', \Yajra\Datatables\Facades\Datatables::class);
+            $loader->alias('Datatables', \Nitsmax\Datatables\Facades\Datatables::class);
         }
     }
 

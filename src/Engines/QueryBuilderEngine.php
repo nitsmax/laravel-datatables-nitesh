@@ -1,26 +1,26 @@
 <?php
 
-namespace Yajra\Datatables\Engines;
+namespace Nitsmax\Datatables\Engines;
 
 use Closure;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Database\Query\Builder;
 use Illuminate\Support\Str;
-use Yajra\Datatables\Helper;
-use Yajra\Datatables\Request;
+use Nitsmax\Datatables\Helper;
+use Nitsmax\Datatables\Request;
 
 /**
  * Class QueryBuilderEngine.
  *
- * @package Yajra\Datatables\Engines
+ * @package Nitsmax\Datatables\Engines
  * @author  Arjay Angeles <aqangeles@gmail.com>
  */
 class QueryBuilderEngine extends BaseEngine
 {
     /**
      * @param \Illuminate\Database\Query\Builder $builder
-     * @param \Yajra\Datatables\Request $request
+     * @param \Nitsmax\Datatables\Request $request
      */
     public function __construct(Builder $builder, Request $request)
     {
@@ -31,7 +31,7 @@ class QueryBuilderEngine extends BaseEngine
     /**
      * Initialize attributes.
      *
-     * @param  \Yajra\Datatables\Request $request
+     * @param  \Nitsmax\Datatables\Request $request
      * @param  \Illuminate\Database\Query\Builder $builder
      * @param  string $type
      */

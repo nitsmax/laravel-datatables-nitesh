@@ -1,14 +1,14 @@
 <?php
 
-namespace Yajra\Datatables\Processors;
+namespace Nitsmax\Datatables\Processors;
 
 use Illuminate\Support\Arr;
-use Yajra\Datatables\Helper;
+use Nitsmax\Datatables\Helper;
 
 /**
  * Class DataProcessor.
  *
- * @package Yajra\Datatables
+ * @package Nitsmax\Datatables
  * @author  Arjay Angeles <aqangeles@gmail.com>
  */
 class DataProcessor

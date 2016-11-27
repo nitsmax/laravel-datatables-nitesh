@@ -1,13 +1,13 @@
 <?php
 
-namespace Yajra\Datatables\Generators;
+namespace Nitsmax\Datatables\Generators;
 
 use Illuminate\Console\GeneratorCommand;
 
 /**
  * Class DataTablesMakeCommand.
  *
- * @package Yajra\Datatables\Generators
+ * @package Nitsmax\Datatables\Generators
  * @author  Arjay Angeles <aqangeles@gmail.com>
  */
 class DataTablesMakeCommand extends GeneratorCommand

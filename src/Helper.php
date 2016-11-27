@@ -1,6 +1,6 @@
 <?php
 
-namespace Yajra\Datatables;
+namespace Nitsmax\Datatables;
 
 use DateTime;
 use Illuminate\Contracts\Support\Arrayable;
@@ -11,7 +11,7 @@ use Illuminate\View\Compilers\BladeCompiler;
 /**
  * Class Helper.
  *
- * @package Yajra\Datatables
+ * @package Nitsmax\Datatables
  * @author  Arjay Angeles <aqangeles@gmail.com>
  */
 class Helper

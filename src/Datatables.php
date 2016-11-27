@@ -1,17 +1,17 @@
 <?php
 
-namespace Yajra\Datatables;
+namespace Nitsmax\Datatables;
 
 use Illuminate\Database\Query\Builder as QueryBuilder;
 use Illuminate\Support\Collection;
-use Yajra\Datatables\Engines\CollectionEngine;
-use Yajra\Datatables\Engines\EloquentEngine;
-use Yajra\Datatables\Engines\QueryBuilderEngine;
+use Nitsmax\Datatables\Engines\CollectionEngine;
+use Nitsmax\Datatables\Engines\EloquentEngine;
+use Nitsmax\Datatables\Engines\QueryBuilderEngine;
 
 /**
  * Class Datatables.
  *
- * @package Yajra\Datatables
+ * @package Nitsmax\Datatables
  * @method  EloquentEngine eloquent($builder)
  * @method  CollectionEngine collection(Collection $builder)
  * @method  QueryBuilderEngine queryBuilder(QueryBuilder $builder)
@@ -22,7 +22,7 @@ class Datatables
     /**
      * Datatables request object.
      *
-     * @var \Yajra\Datatables\Request
+     * @var \Nitsmax\Datatables\Request
      */
     public $request;
 
@@ -36,7 +36,7 @@ class Datatables
     /**
      * Datatables constructor.
      *
-     * @param \Yajra\Datatables\Request $request
+     * @param \Nitsmax\Datatables\Request $request
      */
     public function __construct(Request $request)
     {
@@ -51,7 +51,7 @@ class Datatables
      */
     public static function of($builder)
     {
-        $datatables          = app('Yajra\Datatables\Datatables');
+        $datatables          = app('Nitsmax\Datatables\Datatables');
         $datatables->builder = $builder;
 
         if ($builder instanceof QueryBuilder) {
@@ -67,7 +67,7 @@ class Datatables
      * Datatables using Query Builder.
      *
      * @param \Illuminate\Database\Query\Builder $builder
-     * @return \Yajra\Datatables\Engines\QueryBuilderEngine
+     * @return \Nitsmax\Datatables\Engines\QueryBuilderEngine
      */
     public function usingQueryBuilder(QueryBuilder $builder)
     {
@@ -78,7 +78,7 @@ class Datatables
      * Datatables using Collection.
      *
      * @param \Illuminate\Support\Collection $builder
-     * @return \Yajra\Datatables\Engines\CollectionEngine
+     * @return \Nitsmax\Datatables\Engines\CollectionEngine
      */
     public function usingCollection(Collection $builder)
     {
@@ -89,7 +89,7 @@ class Datatables
      * Datatables using Eloquent.
      *
      * @param  mixed $builder
-     * @return \Yajra\Datatables\Engines\EloquentEngine
+     * @return \Nitsmax\Datatables\Engines\EloquentEngine
      */
     public function usingEloquent($builder)
     {
@@ -117,17 +117,17 @@ class Datatables
     /**
      * Get html builder class.
      *
-     * @return \Yajra\Datatables\Html\Builder
+     * @return \Nitsmax\Datatables\Html\Builder
      */
     public function getHtmlBuilder()
     {
-        return app('Yajra\Datatables\Html\Builder');
+        return app('Nitsmax\Datatables\Html\Builder');
     }
 
     /**
      * Get request object.
      *
-     * @return \Yajra\Datatables\Request|static
+     * @return \Nitsmax\Datatables\Request|static
      */
     public function getRequest()
     {

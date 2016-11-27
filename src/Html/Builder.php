@@ -1,6 +1,6 @@
 <?php
 
-namespace Yajra\Datatables\Html;
+namespace Nitsmax\Datatables\Html;
 
 use Collective\Html\FormBuilder;
 use Collective\Html\HtmlBuilder;
@@ -13,7 +13,7 @@ use Illuminate\Support\Str;
 /**
  * Class Builder.
  *
- * @package Yajra\Datatables\Html
+ * @package Nitsmax\Datatables\Html
  * @author  Arjay Angeles <aqangeles@gmail.com>
  */
 class Builder
@@ -289,7 +289,7 @@ class Builder
     /**
      * Add a Column object in collection.
      *
-     * @param \Yajra\Datatables\Html\Column $column
+     * @param \Nitsmax\Datatables\Html\Column $column
      * @return $this
      */
     public function add(Column $column)
